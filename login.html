@@ -1,0 +1,77 @@
+<html>
+<head>
+<style>
+	.tab
+	{
+		border:1px solid red;
+		padding: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color:lightskyblue;
+		margin-top:50px;
+	}
+	.bt
+	{
+		color:white;
+		background-color: black;
+		border-radius: 10px;
+		font-size: x-small;
+	}
+	.cap
+	{
+		color:red;
+		font-weight: bolder;
+	}
+	.bt:hover
+	{
+		background-color:red;
+		color:white;
+		font-weight:bolder;
+		border-radius:5px;
+		box-shadow: 5px 5px 5px #aaaaaa;
+	}
+	body
+	{
+	
+		background-image:url("scenary.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.inp:hover,.int:hover
+	{
+		background-color: black;
+		color: white;
+	}
+	td
+	{
+		color: black;
+		font-weight: bolder;
+	
+	}
+	#top
+	{
+		margin-top: 50px;
+	}
+</style>
+</head>
+<body bgcolor="yellow" >
+
+<form action="reg.html" method="post">
+<table class="tab" style="background-image: url('scenary.jpeg'); background-size: cover;">
+<caption class="cap">Login Page</caption>
+<tr>
+	<td><br><br><span style="background-color: white;">Username :</span></td><td><br><br><input class="int" type="text" name=username size="6px" placeholder="username"/></td>
+</tr>
+<tr>
+	<td><br><span style="background-color: white;">Password :</span></td><td><br><input class="inp" type=password name=password size="6px" placeholder="password"/></td>
+</tr>
+<tr>
+	<td><br><button class="bt" type="submit">SUBMIT</button></td><td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button class="bt" type="reset">CANCEL</button></td>
+</tr>
+</form>
+
+
+
+
+</body>
+</html>
